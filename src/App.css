@@ -1,0 +1,165 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+@media screen and (min-width: 768px) {
+  .input{
+    padding: 5px;
+    outline: none;
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .button{
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  .btn-blue{
+    background-color:rgb(78, 127, 232);
+    color: white;
+  }
+  .btn-normal{
+    background-color:rgb(255, 255, 255);
+    color: rgb(82, 82, 82);
+  }
+
+  /*.app {
+    width: fit-content;
+  }*/
+
+  /**/
+  /* Declare some variables */
+  .current-page {
+    font-size: 1.5rem;
+    vertical-align: middle;
+  }
+  .country-card-container {
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .country-name {
+    font-size: 0.9rem;
+  }
+  .country-region {
+    font-size: 0.7rem;
+  }
+  .current-page, .country-name, .country-region {
+    line-height: 1;
+  }
+  ul.pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  ul.pagination li.page-item.active a.page-link {
+    color: #445565 !important;
+    background-color: #e3e7eb !important;
+    border-color: #ced4da !important;
+  }
+  ul.pagination a.page-link {
+    padding: 0.75rem 1rem;
+    min-width: 3.5rem;
+    text-align: center;
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+    color: #6b88a4;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  ul.pagination a.page-link:hover {
+    background-color: #f4f4f4;
+  }
+
+  li.page-item {
+    display: inline-block;
+  }
+  .d-flex.flex-row.py-4.align-items-center {
+    margin-top: 2%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .input{
+    padding: 5px;
+    outline: none;
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .button{
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  .btn-blue{
+    background-color:rgb(78, 127, 232);
+    color: white;
+  }
+  .btn-normal{
+    background-color:rgb(255, 255, 255);
+    color: rgb(82, 82, 82);
+  }
+
+  .app {
+    width: fit-content;
+  }
+
+  /**/
+  /* Declare some variables */
+  .current-page {
+    font-size: 1.5rem;
+    vertical-align: middle;
+  }
+  .country-card-container {
+    height: 60px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .country-name {
+    font-size: 0.9rem;
+  }
+  .country-region {
+    font-size: 0.7rem;
+  }
+  .current-page, .country-name, .country-region {
+    line-height: 1;
+  }
+  ul.pagination {
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  ul.pagination li.page-item.active a.page-link {
+    color: #445565 !important;
+    border-color: #ced4da !important;
+  }
+  ul.pagination a.page-link {
+    padding: 0.75rem 1rem;
+    min-width: 3.5rem;
+    text-align: center;
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+    color: #6b88a4;
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  ul.pagination a.page-link:hover {
+    background-color: #f4f4f4;
+  }
+
+  li.page-item {
+    display: inline-block;
+  }
+  .d-flex.flex-row.py-4.align-items-center {
+    margin-top: 2%;
+  }
+}
